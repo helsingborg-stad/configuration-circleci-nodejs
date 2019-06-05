@@ -8,7 +8,20 @@
 # to the application itself to run the required tests to validate
 # the functionality. This build will fail if any error message is thrown.
 #
-# -- REQUIRED ENVIROMENT VARIABLES --
+# -- SETUP --
+# You need to get the following steps done before this build will complete.
+#
+# 1. Create a git repository.
+# 2. Link the git repository to circle ci
+# 3. Create a container name on dockerhub
+# 4. Create a heroku container repository
+# 5. Run the build
+# 6. Make a manual web relese on heroku
+#
+# More detailed information on how to complete this and enviroment
+# variables can be found in internal confluence documentation.
+#
+# -- REQUIRED ENVIROMENT VARIABLES [CIRCLE CI] --
 #
 # DOCKERHUB_LOGIN       Username on dockerhub [Found in confluence]
 # DOCKERHUB_PASSWORD    Password on dockerhub [Found in confluence]
